@@ -51,3 +51,17 @@ while True:
 print(sum(list(filter(lambda x: x % 2 == 0, lst))))
   
   """
+  
+  """
+  link: https://projecteuler.net/overview=002
+  
+  the formula derivation
+ F(n) = F(n-1) + F(n-2)
+= F(n-2)+F(n-3)+F(n-2)=2 F(n-2) + F(n-3)
+= 2(F(n-3)+F(n-4))+F(n-3))=3 F(n-3) + 2 F(n-4)
+= 3 F(n-3) + F(n-4) + F(n-5) + F(n-6)
+= 4 F(n-3) + F(n-6)
+  
+  SO we can just consider the even's sum by the formula.
+  I will use another doc to impl it.
+  """
