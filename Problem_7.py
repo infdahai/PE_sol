@@ -1,5 +1,9 @@
 from math import floor
 
+'''
+from bottom to top, reduce numbers that contains some primer numbers. 
+'''
+
 n = 10 ** 6
 a = [1 for i in range(n + 1)]
 # a[2] = 1
