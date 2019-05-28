@@ -12,7 +12,8 @@ p = []
 for i in range(2, n):
     if a[i]:
         k = floor(n / i)
-        for j in range(1, k + 1):
+        #for j in range(1, k + 1):
+        for j in range(i, k + 1):
             a[j * i] = 0
 
         p.append(i)
